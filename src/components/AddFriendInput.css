@@ -1,0 +1,15 @@
+:local(.addFriendInput) {
+  border-radius: 0;
+  border-color: #ABAAAA;
+  border-left: 0;
+  border-right: 0;
+}
+:local(.addFriendInputredio) {
+  background-color: rgb(170, 171, 171);
+  padding: 10px;
+
+}
+:local(.opacity) {
+  opacity: 0.5;
+
+}
