@@ -13,7 +13,6 @@
     "enzyme-adapter-react-15": "^1.0.5"
   },
   "devDependencies": {
-    "active-enzyme": "^3.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-15": "^1.0.5",
     "react-scripts": "0.9.5",
