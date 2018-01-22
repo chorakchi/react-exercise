@@ -17,16 +17,20 @@ test('AddFriendInput renders without crashing', () => {
 
 describe('renders without crashing components AddFriendInput', () => {
 
-    it('should render App', () => {
+    it('should render AddFriendInput', () => {
         expect(wrapper.find('div').length).toBe(1);
       })
 
-      it('should render App', () => {
+      it('input should render in  AddFriendInput', () => {
         expect(wrapper.find('input').length).toBe(3);
       })
 
-      it('should render App', () => {
+      it('img should render in  AddFriendInput', () => {
         expect(wrapper.find('img').length).toBe(2);
+      })
+
+      it('GenderInput should render in  AddFriendInput', () => {
+        expect(mount(<AddFriendInput/>).find('GenderInput').length).toBe(0);
       })
 
 })

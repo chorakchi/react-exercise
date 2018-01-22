@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import styles from './FriendList.css';
+
 import FriendListItem from './FriendListItem';
 import Pagination from './Pagination';
 import _ from 'underscore';
@@ -10,7 +10,7 @@ class FriendList extends Component {
     super();
 
     // an example array of items to be paged
-    var exampleItems = [].map((friend, index) => { return { id: index, friend: friend }; });
+    var exampleItems = [];
 
     this.state = {
       exampleItems: exampleItems,

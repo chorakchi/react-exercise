@@ -15,7 +15,7 @@ class FriendListItem extends Component {
             <small>xx friends in common</small>
           </div>
           <div>
-          {this.props.gender == 'MALE' ? <img src={man} width='20'height='20' className={classnames(styles.opacity)} alt="logo" />: <img src={woman} width='20'height='20' className={classnames(styles.opacity)} alt="logo" />}
+          {this.props.gender === 'MALE' ? <img src={man} width='20'height='20' className={classnames(styles.opacity)} alt="logo" />: <img src={woman} width='20'height='20' className={classnames(styles.opacity)} alt="logo" />}
           
             <small>{this.props.gender}</small>
           </div>

@@ -2,19 +2,14 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './AddFriendInput.css';
-import man from './../man.svg';
-import woman from './../woman.svg';
+import GenderInput from './GenderInput';
 
 class AddFriendInput extends Component {
 
   render () {
     return (
       <div>
-        <div onChange={this.setGender.bind(this)} className={classnames(styles.addFriendInputredio)} >
-        <img className={classnames(styles.opacity)} src={man} width='20'height='20'  alt="logo" />/<img src={woman} width='20'height='20' className={classnames(styles.opacity)} alt="logo" />
-        <input type="radio" value="MALE" name="gender" defaultChecked/> <span>Male &nbsp;</span>
-        <input type="radio" value="FEMALE" name="gender"/> <span>Female </span>
-      </div>
+        <GenderInput ref={foo => {this.foo = foo;}} className={classnames(styles.addFriendInputredio)} values={["MALE","FEMALE"]} label={["Mele","Female"]} name={"gender"}/>
         <input
         type="text"
         autoFocus="true"
@@ -42,16 +37,17 @@ class AddFriendInput extends Component {
   }
 
   setGender(e) {
-    this.setState({ gender: e.target.value });
+    console.log(this.foo.getInitialState());
+    this.setState({ gender: this.foo.getInitialState().gender });
   }
 
   handleSubmit (e) {
     const name = e.target.value.trim();
-    const gender = this.state.gender
+    console.log(this.foo.getInitialState().gender);
+    const gender = this.foo.getInitialState().gender
     if (e.which === 13) {
       this.props.addFriend(name , gender);
       this.setState({ name: '' });
-      console.log(this.props.gender);
     }
   }
 }

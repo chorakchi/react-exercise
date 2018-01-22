@@ -1,9 +1,3 @@
-:local(.addFriendInput) {
-  border-radius: 0;
-  border-color: #ABAAAA;
-  border-left: 0;
-  border-right: 0;
-}
 :local(.addFriendInputRedio) {
   background-color: rgb(170, 171, 171);
   padding: 10px;

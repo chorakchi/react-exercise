@@ -1,4 +1,4 @@
-import React, {propTypes, defaultProps} from 'react';
+import React from 'react';
 
 class Pagination extends React.Component {
     constructor(props) {
