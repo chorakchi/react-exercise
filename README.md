@@ -1,7 +1,7 @@
 # react-interview-exercise
  pagination support, male/female and display it, add tests
 
-## Usage
+## 🎬 Usage
 
 ```
 yarn install
@@ -11,13 +11,13 @@ open http://localhost:3000
 yarn test
 ```
 
-## Live Demo
+## 📀 Live Demo
 <a href="http://86a13100.ngrok.io/">http://86a13100.ngrok.io/<a>
  
 "may not work properly as This demo served from my PC"
  
 
-## ِDescription
+## ِ📝 Description
 
 added tests to reducers, action, and components with 'Jest' as the default  test tool of the framework
 and for components use the 'Enzyme' as utility for React that makes it easier to assert, manipulate, and traverse React Components
@@ -50,7 +50,7 @@ These files added to the project
 
 ```
 
-## Documentation & resource
+## 👇 Documentation & resource
 
 ```shell
 http://jasonwatmore.com/post/2017/03/14/react-pagination-example-with-logic-like-google
