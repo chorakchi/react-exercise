@@ -11,6 +11,12 @@ open http://localhost:3000
 yarn test
 ```
 
+## Live Demo
+<a href="http://86a13100.ngrok.io/">http://86a13100.ngrok.io/<a>
+ 
+ <h1 style="color:rgba(0,0,0,0.4)">"may not work properly as This demo served from my PC"</h1>
+ 
+
 ## description
 
 added tests to reducers, action, and components with 'Jest' as the default  test tool of the framework
