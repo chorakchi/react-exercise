@@ -17,12 +17,12 @@ yarn test
 "may not work properly as This demo served from my PC"
  
 
-## description
+## ِDescription
 
 added tests to reducers, action, and components with 'Jest' as the default  test tool of the framework
 and for components use the 'Enzyme' as utility for React that makes it easier to assert, manipulate, and traverse React Components
 
-## change
+## ⚒ Change
 
 These files added to the project
 
