@@ -1,4 +1,4 @@
-# react-interview-exercise
+# react-exercise
  pagination support, male/female and display it, add tests
 
 ## 🎬 Usage
@@ -12,9 +12,7 @@ yarn test
 ```
 
 ## 📀 Live Demo
-<a href="http://86a13100.ngrok.io/">http://86a13100.ngrok.io/<a>
- 
-"may not work properly as This demo served from my PC"
+-- Removed
  
 
 ## ِ📝 Description
