@@ -19,12 +19,26 @@ yarn test
 
 ## ِ📝 Description
 
+
+    React 16
+    Redux
+    Webpack 3
+    Babel 6
+    CSS modules
+    React Router
+    Connected Router (react router + redux)
+    Redux DevTools
+    Eslint
+    Jest & Enzyme
+    Express
+
+in new commits
 added tests to reducers, action, and components with 'Jest' as the default  test tool of the framework
 and for components use the 'Enzyme' as utility for React that makes it easier to assert, manipulate, and traverse React Components
 
-## ⚒ Change
+## ⚒ files
 
-These files added to the project
+These files the project
 
 ```shell
 ├── src
