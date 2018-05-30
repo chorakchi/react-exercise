@@ -23,6 +23,7 @@
     "eslint-config-react": "1.1.7",
     "eslint-plugin-react": "7.0.1",
     "pre-commit": "1.2.2",
+    "react-doc-generator": "^1.2.5",
     "react-test-renderer": "15.5.4",
     "sinon": "2.2.0"
   },
@@ -39,6 +40,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "doc": "react-doc-generator ./src -o DOCUMENTATION.md",
     "eject": "react-scripts eject"
   }
 }
