@@ -6,7 +6,7 @@
     "classnames": "^2.2.5",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-15": "^1.0.5",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
